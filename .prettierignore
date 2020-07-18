@@ -1,0 +1,11 @@
+# Ignore Artifacts
+node_modules
+.next
+_next
+dist
+README.md
+yarn.lock
+.vercel
+build
+public
+_posts
