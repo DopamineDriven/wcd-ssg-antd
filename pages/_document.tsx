@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
 	}
 	render() {
 		return (
-			<Html lang="en">
+			<Html lang="en-US">
 				<Head>
 					<link
 						rel="apple-touch-icon"
@@ -43,7 +43,7 @@ export default class MyDocument extends Document {
 					/>
 					<meta name="keywords" content="ssg, next, typescript" />
 				</Head>
-				<body>
+				<body style={{ margin: "0 0 0 0" }}>
 					<Main />
 					<NextScript />
 				</body>
