@@ -1,18 +1,19 @@
 import React, { FC } from "react";
 import { Layout } from "antd";
-import { CopyrightCircleFilled } from "@ant-design/icons";
+import { CopyrightCircleOutlined } from "@ant-design/icons";
 
 const { Footer } = Layout;
 
-const StickyFooter: FC = () => {
-    const currentYear = new Date().getFullYear();
-    return (
-        <Footer style={{ textAlign: "center" }}>
-            <CopyrightCircleFilled 
-                
-            />
-        </Footer>
-    )
-}
+const FixedFooter: FC = () => {
+	const currentYear = new Date().getFullYear();
+	return (
+		<Footer style={{ textAlign: "center", alignContent: "center" }}>
+			<CopyrightCircleOutlined
+				style={{ color: "#ffffff", fontSize: "1.6em" }}
+			/>
+			{currentYear}
+		</Footer>
+	);
+};
 
-export default StickyFooter;
+export default FixedFooter;

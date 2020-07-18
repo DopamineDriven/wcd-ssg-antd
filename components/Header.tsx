@@ -1,10 +1,10 @@
 import React, { FC } from "react";
-import { Layout, Menu } from "antd";
+import { Layout } from "antd";
 import NavLink from "next/link";
 
 const { Header } = Layout;
 //Content destructured by Layout if needed
-export const FixedHeader: FC = () => {
+const FixedHeader: FC = () => {
 	return (
 		<Layout>
 			<Header className="header-fixed">
@@ -19,3 +19,5 @@ export const FixedHeader: FC = () => {
 		</Layout>
 	);
 };
+
+export default FixedHeader;
