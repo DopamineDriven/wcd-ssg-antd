@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Great%20Vibes&display=swap);
 .header-fixed {
 	position: fixed;
-	background: #ffffff;
-	box-shadow: 0 2px 8px #f0f1f2;
+	background: #000000;
+	box-shadow: 0 2px 8px #434343;
 	padding: 0;
 	z-index: 1;
 	width: 100%;
@@ -18,11 +18,11 @@
 .header-anchor {
 	font-family: "Great Vibes", cursive;
 	font-size: 3rem;
-	color: #000000;
+	color: #ffffff;
 }
 
 .header-text {
-	color: #000000;
+	color: #ffffff;
 }
 
 .header-text:hover {
@@ -31,4 +31,8 @@
 
 .header-anchor:hover {
 	color: #eb57a3;
+}
+
+.index-content {
+	background: #ffffff;
 }

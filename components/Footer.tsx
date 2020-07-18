@@ -7,12 +7,26 @@ const { Footer } = Layout;
 const FixedFooter: FC = () => {
 	const currentYear = new Date().getFullYear();
 	return (
-		<Footer style={{ textAlign: "center", alignContent: "center" }}>
-			<CopyrightCircleOutlined
-				style={{ color: "#ffffff", fontSize: "1.6em" }}
-			/>
-			{currentYear}
-		</Footer>
+		<Layout>
+			<Footer
+				style={{
+					textAlign: "center",
+					alignContent: "center",
+					backgroundColor: "#000000",
+					color: "#ffffff"
+				}}
+			>
+				<CopyrightCircleOutlined
+					style={{
+						color: "#ffffff",
+						fontSize: "1.0em",
+						verticalAlign: "center"
+					}}
+				/>
+				&nbsp;
+				{`${currentYear}`}
+			</Footer>
+		</Layout>
 	);
 };
 

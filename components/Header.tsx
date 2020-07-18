@@ -1,18 +1,18 @@
 import React, { FC } from "react";
 import { Layout } from "antd";
-import NavLink from "next/link";
+import Link from "next/link";
 
 const { Header } = Layout;
 //Content destructured by Layout if needed
 const FixedHeader: FC = () => {
 	return (
-		<Layout>
+		<Layout >
 			<Header className="header-fixed">
 				<div className="header-logo">
 					<div className="header-anchor">
-						<NavLink href="/">
+						<Link href="/">
 							<a className="header-text">Windy City Devs</a>
-						</NavLink>
+						</Link>
 					</div>
 				</div>
 			</Header>

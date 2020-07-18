@@ -1,14 +1,20 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import { Layout } from "antd";
 
 const { Content } = Layout;
 
 const Index = () => {
-	const user = "Enter TypeScript+Next+Antd+SSG+Vercel";
+	const user = "🐜🐜🐜SSG🐜🐜🐜BUILD🐜🐜🐜";
 	return (
-		<Content>
-			<div>{user}</div>
-		</Content>
+		<Fragment>
+			<Header />
+			<Content className="index-content" style={{ padding: "24em" }}>
+				<div>{user}</div>
+			</Content>
+            <Footer />
+		</Fragment>
 	);
 };
 
