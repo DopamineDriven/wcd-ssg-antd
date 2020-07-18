@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Great%20Vibes&display=swap);
+.header-fixed {
+	position: fixed;
+	background: #ffffff;
+	box-shadow: 0 2px 8px #f0f1f2;
+	padding: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+.header-logo {
+	/* background: rgba(255, 255, 255, 0.2) */
+	display: inline-block;
+	padding: 0 0px;
+	padding-left: 10px;
+}
+
+.header-anchor {
+	font-family: "Great Vibes", cursive;
+	font-size: 3rem;
+	color: #000000;
+}
+
+.header-text {
+	color: #000000;
+}
+
+.header-text:hover {
+	color: #eb57a3;
+}
+
+.header-anchor:hover {
+	color: #eb57a3;
+}
