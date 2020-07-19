@@ -188,6 +188,6 @@ body {
     fill: var(--primaryColor);
 }
 
-.text-disabled {
+.text-center {
     color: var(--textColorSecondary) !important;
 }
