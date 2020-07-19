@@ -1,5 +1,8 @@
 :root {
-    --backgroundColor: #f7f7f7;
-    --primaryColor: #191a1b;
-    --textColorSecondary: rgba(0, 0, 0, 0.45);
-  }
+    --backgroundColor: linear-gradient(to bottom,
+            #434343,
+            #000000) !important;
+    ;
+    --primaryColor: #ffffff !important;
+    --textColorSecondary: rgba(0, 0, 0, 0.45) !important;
+}
