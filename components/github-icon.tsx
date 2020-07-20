@@ -1,5 +1,5 @@
-import GithubOutlined from '@ant-design/icons/GithubOutlined';
 import Button from 'antd/lib/button';
+import GithubOutlined from '@ant-design/icons/GithubOutlined';
 
 type Props = {
 	github: string;
@@ -9,10 +9,10 @@ const Github = ({ github }: Props) => {
 	return (
 		<Button
 			href={github}
-			className="user-social-media-button"
-			target="__blank"
-			shape="round"
-			icon={<GithubOutlined key="github" className="user-social-media-icon" />}
+			className='social-media-btn'
+			target='__blank'
+			shape='round'
+			icon={<GithubOutlined key='github' className='social-media-icon' />}
 		/>
 	);
 };

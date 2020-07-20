@@ -132,6 +132,28 @@ body {
 	box-shadow: 0 2px 8px #f0f1f2;
 }
 
+.social-media-btn {
+	background: #000000;
+	outline: #ffffff 0.5px solid;
+}
+
+.social-media-btn:hover {
+	color: #b3ddb3;
+}
+
+.social-media-icon {
+	color: #ffffff;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 1px 0 2px 0;
+}
+
+.social-media-icon:hover {
+	color: #000000;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
 .md-line-height {
 	line-height: 1.625;
 }
@@ -152,12 +174,24 @@ body {
 	text-align: right !important;
 }
 
+.vertical-center {
+	vertical-align: center;
+}
+
 .align-center {
 	align-content: center !important;
 }
 
+.align-items-center {
+	align-items: center;
+}
+
 .fff {
 	color: #ffffff !important;
+}
+
+._000 {
+	color: #000000;
 }
 
 .w-100 {
@@ -176,6 +210,10 @@ body {
 	display: inline-block;
 }
 
+.d-flex {
+	display: flex;
+}
+
 .ft-3 {
 	font-size: 1em;
 }
@@ -190,6 +228,14 @@ body {
 
 .ft-h3 {
 	font-size: 1.5rem;
+}
+
+.ft-lgr {
+	font-size: larger;
+}
+
+.fw-b {
+	font-weight: bold;
 }
 
 .m-0 {

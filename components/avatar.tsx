@@ -1,6 +1,5 @@
 import Avatar from 'antd/lib/avatar';
 import UserOutlined from '@ant-design/icons/UserOutlined';
-import componentStyles from './component-styles.module.css';
 
 type Props = {
 	src: string;
@@ -9,14 +8,14 @@ type Props = {
 
 const Avater = ({ src, alt }: Props) => {
 	return (
-		<div className={componentStyles.avatarDiv}>
+		<div className='align-items-center d-flex'>
 			<Avatar
 				src={src}
 				size={150}
 				icon={UserOutlined}
-				shape="circle"
+				shape='circle'
 				alt={alt}
-				className={componentStyles.avatar}
+				className='vertical-center'
 			/>
 		</div>
 	);
