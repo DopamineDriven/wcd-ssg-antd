@@ -15,8 +15,7 @@
 }
 
 .footer {
-    text-align: center;
-
+	text-align: center;
 }
 
 .header-fixed {
@@ -34,7 +33,7 @@
 }
 
 .header-a {
-    padding: 0 0 0 2em;
+	padding: 0 0 0 2em;
 }
 
 .header-logo {

@@ -1,6 +1,6 @@
-import { Avatar } from "antd";
-import { UserOutlined } from "@ant-design/icons";
-import componentStyles from "./component-styles.module.css";
+import { Avatar } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+import componentStyles from './component-styles.module.css';
 
 type Props = {
 	src: string;

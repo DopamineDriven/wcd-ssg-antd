@@ -1,9 +1,9 @@
-import React from "react";
-import { Layout } from "antd";
+import React from 'react';
+import { Layout } from 'antd';
 // import { LogoHeader } from "../Style";
-import NavLink from "next/link";
-import SvgLogo from "./svg-logo";
-import componentStyles from "./component-styles.module.css";
+import NavLink from 'next/link';
+import SvgLogo from './svg-logo';
+import componentStyles from './component-styles.module.css';
 interface Props {
 	props: string | number;
 }

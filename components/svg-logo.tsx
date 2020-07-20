@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function SvgLogo({ props }: { props: string | number }) {
 	return (
@@ -15,7 +15,7 @@ function SvgLogo({ props }: { props: string | number }) {
 			<title>Windy City Logo</title>
 			<style>
 				{
-					".Logo_svg__st1,.Logo_svg__st3{fill:#41b6e6}.Logo_svg__st3{opacity:.52}.Logo_svg__st7{fill:#ed2124}.Logo_svg__st10{opacity:.29}"
+					'.Logo_svg__st1,.Logo_svg__st3{fill:#41b6e6}.Logo_svg__st3{opacity:.52}.Logo_svg__st7{fill:#ed2124}.Logo_svg__st10{opacity:.29}'
 				}
 			</style>
 			<g opacity={0.17}>
