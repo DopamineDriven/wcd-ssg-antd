@@ -132,6 +132,18 @@ body {
 	box-shadow: 0 2px 8px #f0f1f2;
 }
 
+.md-line-height {
+	line-height: 1.625;
+}
+
+.md-line-height-h2-h3 {
+	line-height: 1.375;
+}
+
+.mt-h3 {
+	margin-top: 2em;
+}
+
 .text-left {
 	text-align: left !important;
 }
@@ -166,6 +178,18 @@ body {
 
 .ft-3 {
 	font-size: 1em;
+}
+
+.ft-md {
+	font-size: 1.125rem;
+}
+
+.ft-h2 {
+	font-size: 1.875rem;
+}
+
+.ft-h3 {
+	font-size: 1.5rem;
 }
 
 .m-0 {
