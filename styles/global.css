@@ -122,6 +122,16 @@ body {
 	}
 }
 
+.user-button {
+	color: #ffffff;
+	float: right;
+	background-color: #000000;
+	border: 1px #ffffff solid;
+	width: 100px !important;
+	font-size: large;
+	box-shadow: 0 2px 8px #f0f1f2;
+}
+
 .text-left {
 	text-align: left !important;
 }
