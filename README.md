@@ -4,6 +4,9 @@
 ```git
 $ npx @svgr/cli --icon Logo.svg
 ```
+## [name].module.css - component level styles 
+- https://nextjs.org/blog/next-9-2#built-in-css-module-support-for-component-level-styles
+
 ## Deep Dive - Rendering on the Web *READ THIS* &rarr; yes, the reader 
 - https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 
