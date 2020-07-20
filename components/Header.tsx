@@ -3,7 +3,7 @@ import { Layout } from "antd";
 // import { LogoHeader } from "../Style";
 import NavLink from "next/link";
 import SvgLogo from "./svg-logo";
-
+import componentStyles from "./component-styles.module.css";
 interface Props {
 	props: string | number;
 }
@@ -12,10 +12,10 @@ const { Header } = Layout;
 //Content destructured by Layout if needed
 const FixedHeader = ({ props }: Props) => {
 	return (
-		<Header className="layout-header-fixed">
-			<div style={{ display: "inline-block", padding: "0, 0, 0, 10px" }}>
+		<Header className={componentStyles.headerFixed}>
+			<div className={componentStyles.headerDiv}>
 				<NavLink href="/">
-					<a style={{ paddingLeft: "2em" }}>{<SvgLogo props={props} />}</a>
+					<a className={componentStyles.headerA}>{<SvgLogo props={props} />}</a>
 				</NavLink>
 			</div>
 		</Header>
