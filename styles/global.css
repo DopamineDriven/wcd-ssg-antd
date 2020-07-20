@@ -99,6 +99,29 @@ body {
 	font-size: 14px;
 }
 
+.shadow-sm {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.hover\:shadow-md:hover {
+	box-shadow: 0 8px 30px rgna(0, 0, 0, 0.12);
+}
+
+.transition-shadow {
+	transition-property: box-shadow;
+}
+
+.duration-200 {
+	transition-duration: 200ms;
+}
+
+@media (min-width: 640px) {
+	.sm\:mx-0 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
 .text-left {
 	text-align: left !important;
 }
@@ -108,7 +131,7 @@ body {
 }
 
 .align-center {
-    align-content: center !important;
+	align-content: center !important;
 }
 
 .fff {
@@ -132,7 +155,7 @@ body {
 }
 
 .ft-3 {
-	font-size: 1.0em;
+	font-size: 1em;
 }
 
 .m-0 {
@@ -277,6 +300,10 @@ body {
 .ml-5,
 .mx-5 {
 	margin-left: 3rem !important;
+}
+.-mx-125 {
+	margin-left: -1.25em !important;
+	margin-right: -1.25em !important;
 }
 
 .p-0 {

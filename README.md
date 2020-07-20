@@ -1,5 +1,8 @@
 # wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
 
+## Transitions
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+
 ## Default Antd styling by component
 - https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
 
