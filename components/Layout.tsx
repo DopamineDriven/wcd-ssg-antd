@@ -11,7 +11,7 @@ const Layout = ({ children }: Props) => {
 	return (
 		<>
 			<Meta />
-			<div className={componentStyles.minHScreen}>
+			<div className="app-layout">
 				<main>{children}</main>
 			</div>
 			<Footer />

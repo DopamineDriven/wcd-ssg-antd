@@ -19,8 +19,9 @@ const FixedFooter: FC = () => {
 				style={{
 					color: '#ffffff',
 					fontSize: '1.0em',
-					verticalAlign: 'center'
+
 				}}
+				className="ml-4, mx-4"
 			/>
 			&nbsp;
 			{`${currentYear}`}

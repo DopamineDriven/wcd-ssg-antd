@@ -12,10 +12,10 @@ const { Header } = Layout;
 //Content destructured by Layout if needed
 const FixedHeader = ({ props }: Props) => {
 	return (
-		<Header className={componentStyles.headerFixed}>
-			<div className={componentStyles.headerDiv}>
+		<Header>
+			<div className="d-in pl-2">
 				<NavLink href="/">
-					<a className={componentStyles.headerA}>{<SvgLogo props={props} />}</a>
+					<a className="ml-5">{<SvgLogo props={props} />}</a>
 				</NavLink>
 			</div>
 		</Header>
