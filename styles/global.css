@@ -110,6 +110,14 @@ body {
 	text-align: center !important;
 }
 
+.align-center {
+    align-content: center !important;
+}
+
+.fff {
+	color: #ffffff !important;
+}
+
 .w-100 {
 	width: 100%;
 }
@@ -124,6 +132,10 @@ body {
 
 .d-in {
 	display: inline-block;
+}
+
+.ft-3 {
+	font-size: 1.0em;
 }
 
 .m-0 {
