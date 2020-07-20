@@ -1,5 +1,9 @@
-# wcd-ssg-antd
+# wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
 
+## generate JSX from .svg files via the command line
+```git
+$ npx @svgr/cli --icon Logo.svg
+```
 ## Deep Dive - Rendering on the Web *READ THIS* &rarr; yes, the reader 
 - https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 

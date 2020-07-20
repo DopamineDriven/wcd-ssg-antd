@@ -6,7 +6,11 @@ import { Affix, Layout } from "antd";
 
 const { Content } = Layout;
 
-const Index = () => {
+interface Props {
+	props: string | number;
+}
+
+const Index = ({ props }: Props) => {
 	const user = "🐜🐜🐜SSG🐜🐜🐜BUILD🐜🐜🐜";
 	return (
 		<Layout className="app-layout">
@@ -14,7 +18,7 @@ const Index = () => {
 				<title>Landing Page</title>
 			</Head>
 			<Affix offsetTop={0} style={{ zIndex: 99 }}>
-				<Header />
+				<Header props={props} />
 			</Affix>
 			<Content className="index-content" style={{ padding: "24em" }}>
 				<div>{user}</div>

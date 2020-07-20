@@ -1,5 +1,5 @@
 import { AppProps } from "next/app";
-import "../styles/index.css";
+import "../styles/vars.css";
 import "../styles/global.css";
 
 // export function reportWebVitals(metric: any) {

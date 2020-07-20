@@ -1,20 +1,22 @@
-import React, { FC } from "react";
+import React from "react";
 import { Layout } from "antd";
-import Link from "next/link";
+// import { LogoHeader } from "../Style";
+import NavLink from "next/link";
+import SvgLogo from "./svg-logo";
+
+interface Props {
+	props: string | number;
+}
 
 const { Header } = Layout;
 //Content destructured by Layout if needed
-const FixedHeader: FC = () => {
+const FixedHeader = ({ props }: Props) => {
 	return (
-		<Header className="header-fixed">
-			<div className="header-logo">
-				<div className="header-anchor">
-					<Link href="/">
-						<a className="header-text" style={{ textDecoration: "none" }}>
-							Windy City Devs
-						</a>
-					</Link>
-				</div>
+		<Header className="layout-header-fixed">
+			<div style={{ display: "inline-block", padding: "0, 0, 0, 10px" }}>
+				<NavLink href="/">
+					<a style={{ paddingLeft: "2em" }}>{<SvgLogo props={props} />}</a>
+				</NavLink>
 			</div>
 		</Header>
 	);
