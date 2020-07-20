@@ -8,12 +8,7 @@ const FixedFooter: FC = () => {
 	const currentYear = new Date().getFullYear();
 	return (
 		<Footer className="align-enter text-center fff ft-3">
-			<CopyrightCircleOutlined
-				style={{
-					color: '#ffffff',
-					fontSize: '1.0em'
-				}}
-			/>
+			<CopyrightCircleOutlined />
 			&nbsp;
 			{`${currentYear}`}
 		</Footer>
