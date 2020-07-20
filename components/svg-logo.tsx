@@ -7,9 +7,9 @@ function SvgLogo({ props }: { props: string | number }) {
 			x={0}
 			y={0}
 			viewBox="0 0 3110 1059"
-			xmlSpace="preserve"
-			width="10em"
-			height="5em"
+            xmlSpace="preserve"
+			width="12em"
+			height="6em"
 			{...props}
 		>
 			<title>Windy City Logo</title>

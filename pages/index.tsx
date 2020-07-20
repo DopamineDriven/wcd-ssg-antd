@@ -11,7 +11,7 @@ interface Props {
 }
 
 const Index = ({ props }: Props) => {
-	const user = "🐜🐜🐜SSG🐜🐜🐜BUILD🐜🐜🐜";
+	const user = "🐜🐜SSG🐜🐜BUILD🐜🐜";
 	return (
 		<Layout className="app-layout">
 			<Head>

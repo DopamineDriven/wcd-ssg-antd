@@ -3,11 +3,39 @@
 *:after {
     box-sizing: inherit;
 }
-
+html {
+    overflow: auto;
+    padding: 0 0 0 0;
+}
+body,
+html {
+	height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.app-layout {
+    background-size: cover;
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to bottom,
+		#434343,
+		#000000
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#434343,
+		#000000
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	position: relative;
+}
 html {
     box-sizing: border-box;
     font-size: 14px;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    background-color: #000000;
+    
 }
 
 body {
@@ -193,9 +221,10 @@ body {
 }
 
 .ant-layout-header {
-    height: 74px;
-    padding: 0 50px;
-    color: rgba(0, 0, 0, 0.65);
-    line-height: 74px;
-    background: #ffffff;
+	position: fixed;
+	background: #ffffff;
+	box-shadow: 0 2px 8px #f0f1f2;
+	padding: 0 0 0 4em;
+	z-index: 1;
+	width: 100%;
 }
