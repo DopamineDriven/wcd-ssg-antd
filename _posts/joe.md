@@ -5,7 +5,11 @@ coverImage: '/assets/next-jamstack.jpg'
 date: "2020-07-18T09:08:07.322Z"
 author:
   name: Joe Shields
+  role: 'CEO'
   picture: '/assets/joe.jpg'
+  github: 'https://github.com/JShields30'
+  twitter: 'https://twitter.com/JShields312'
+  linkedin: 'https://www.linkedin.com/in/jshields90/'
 ogImage:
   url: '/assets/next-jamstack.jpg'
 ---

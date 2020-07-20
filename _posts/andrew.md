@@ -5,7 +5,11 @@ coverImage: '/assets/next-jamstack.jpg'
 date: "2020-07-19T08:35:07.322Z"
 author:
   name: Andrew Ross
+  role: 'CTO'
   picture: '/assets/andrew.jpg'
+  github: 'https://github.com/DopamineDriven'
+  twitter: 'https://twitter.com/Dopamine_Driven'
+  linkedin: 'https://www.linkedin.com/in/asross/'
 ogImage:
   url: '/assets/next-jamstack.jpg'
 ---

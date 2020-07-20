@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from 'antd/lib/layout';
 import NavLink from 'next/link';
 import SvgLogo from './svg-logo';
+
 interface Props {
 	props: string | number;
 }

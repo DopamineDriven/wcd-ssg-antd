@@ -5,7 +5,11 @@ coverImage: '/assets/next-jamstack.jpg'
 date: "2020-07-18T08:35:07.322Z"
 author:
   name: Yong Lee
+  role: 'COO'
   picture: '/assets/yong.jpg'
+  github: 'https://github.com/yhlee-dho'
+  twitter: 'https://twitter.com/YongLee08380800'
+  linkedin: 'https://www.linkedin.com/in/yong-lee-a16430193/'
 ogImage:
   url: '/assets/next-jamstack.jpg'
 ---
