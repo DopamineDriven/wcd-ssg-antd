@@ -61,6 +61,7 @@ body {
 
 .text-center {
 	color: var(--textColorSecondary) !important;
+	text-align: center;
 }
 
 .header-div {
@@ -104,10 +105,6 @@ body {
 
 .text-right {
 	text-align: right !important;
-}
-
-.text-center {
-	text-align: center !important;
 }
 
 .align-center {
