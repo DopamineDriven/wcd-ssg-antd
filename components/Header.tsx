@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from 'antd';
+import Layout from 'antd/lib/layout';
 // import { LogoHeader } from "../Style";
 import NavLink from 'next/link';
 import SvgLogo from './svg-logo';

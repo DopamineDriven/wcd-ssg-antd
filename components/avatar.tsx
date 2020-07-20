@@ -1,5 +1,5 @@
-import { Avatar } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import Avatar from 'antd/lib/avatar';
+import UserOutlined from '@ant-design/icons/UserOutlined';
 import componentStyles from './component-styles.module.css';
 
 type Props = {

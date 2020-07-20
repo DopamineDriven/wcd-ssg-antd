@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import { Layout } from 'antd';
-import { CopyrightCircleOutlined } from '@ant-design/icons';
+import Layout from 'antd/lib/layout';
+import CopyrightCircleOutlined from '@ant-design/icons/CopyrightCircleOutlined';
 
 const { Footer } = Layout;
 
