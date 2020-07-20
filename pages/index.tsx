@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import Head from "next/head";
 import Header from "../components/header";
 import { Affix, Layout } from "antd";
+import Meta from "../components/meta";
 
 const { Content } = Layout;
 
@@ -11,8 +12,10 @@ interface Props {
 }
 
 const Index = ({ props }: Props) => {
-	const user = "🐜🐜SSG🐜🐜BUILD🐜🐜";
+	const user = "🐜🐜🐜SSG🐜🐜🐜BUILD🐜🐜";
 	return (
+		<>
+		<Meta />
 		<Layout className="app-layout">
 			<Head>
 				<title>Landing Page</title>
@@ -25,6 +28,7 @@ const Index = ({ props }: Props) => {
 			</Content>
 			<Footer />
 		</Layout>
+		</>
 	);
 };
 
