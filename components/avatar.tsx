@@ -2,19 +2,19 @@ import Avatar from 'antd/lib/avatar';
 import UserOutlined from '@ant-design/icons/UserOutlined';
 
 type Props = {
-	src: string;
-	alt: string;
+	picture: string;
+	name: string;
 };
 
-const Avater = ({ src, alt }: Props) => {
+const Avater = ({ picture, name }: Props) => {
 	return (
 		<div className='align-items-center d-flex'>
 			<Avatar
-				src={src}
+				src={picture}
 				size={150}
 				icon={UserOutlined}
 				shape='circle'
-				alt={alt}
+				alt={`picture of ${name}`}
 				className='vertical-center'
 			/>
 		</div>
