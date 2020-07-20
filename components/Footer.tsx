@@ -10,7 +10,7 @@ const FixedFooter: FC = () => {
 		<Footer className="align-enter text-center fff ft-3">
 			<CopyrightCircleOutlined />
 			&nbsp;
-			{`${currentYear}`}
+			{currentYear}
 		</Footer>
 	);
 };

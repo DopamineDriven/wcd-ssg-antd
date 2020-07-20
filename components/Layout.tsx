@@ -1,8 +1,6 @@
 import React from 'react';
 import Meta from './meta';
 import Footer from './footer';
-import componentStyles from './component-styles.module.css';
-
 type Props = {
 	children: React.ReactNode;
 };
