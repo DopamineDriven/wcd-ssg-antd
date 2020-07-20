@@ -1,5 +1,8 @@
 # wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
 
+## Default Antd styling by component
+- https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+
 ## generate JSX from .svg files via the command line
 ```git
 $ npx @svgr/cli --icon Logo.svg

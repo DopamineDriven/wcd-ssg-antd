@@ -7,7 +7,6 @@ const { Footer } = Layout;
 const FixedFooter: FC = () => {
 	const currentYear = new Date().getFullYear();
 	return (
-		<Layout>
 			<Footer
 				style={{
 					textAlign: "center",
@@ -26,7 +25,6 @@ const FixedFooter: FC = () => {
 				&nbsp;
 				{`${currentYear}`}
 			</Footer>
-		</Layout>
 	);
 };
 
