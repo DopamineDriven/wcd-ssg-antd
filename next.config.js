@@ -1,3 +1,8 @@
+const lessToJS = require("less-vars-to-js");
+const fs = require("fs");
+const path = require("path");
+
+
 const compose = plugins => ({
 	webpack(config, options) {
 		return plugins.reduce((config, plugin) => {

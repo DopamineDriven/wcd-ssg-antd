@@ -6,7 +6,7 @@ type Props = {
 	alt: string;
 };
 
-const UserAvatar = ({ src, alt }: Props) => {
+const Avater = ({ src, alt }: Props) => {
 	return (
 		<div style={{ display: "flex", alignItems: "center" }}>
 			<Avatar
@@ -21,4 +21,4 @@ const UserAvatar = ({ src, alt }: Props) => {
 	);
 };
 
-export default UserAvatar;
+export default Avater;

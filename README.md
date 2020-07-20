@@ -1,6 +1,17 @@
 # wcd-ssg-antd
 
+## Deep Dive - Rendering on the Web *READ THIS* &rarr; yes, the reader 
+- https://developers.google.com/web/updates/2019/02/rendering-on-the-web
+
+## Use less with antd
+- https://ant.design/docs/react/customize-theme
+- https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+- https://annacoding.com/article/2cU5baQMXG8SV2pbxh7kO8/How-to-config-Ant-Design--in-Next.js-with-custom-theme?
 - https://clrs.cc/
+
+
+### Next vs Gatsby vs CRApp
+- https://leerob.io/blog/nextjs-gatsby-create-react-app
 
 ```ts
 const users: User[] = [
