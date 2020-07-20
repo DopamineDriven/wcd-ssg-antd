@@ -14,21 +14,14 @@ interface Props {
 }
 
 const Index = ({ props }: Props) => {
-	const user = '🐜🐜🐜SSG🐜🐜🐜BUILD🐜🐜';
 	return (
 		<>
 			<AppLayout>
 				<Head>
 					<title>Landing Page</title>
 				</Head>
-				<Affix offsetTop={0} style={{ zIndex: 99 }}>
 					<Header props={props} />
-				</Affix>
-				<Container>
-					<Content>
-						<div className="px-3">{user}</div>
-					</Content>
-				</Container>
+
 				<Footer />
 			</AppLayout>
 		</>
