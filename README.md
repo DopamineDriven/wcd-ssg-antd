@@ -1,5 +1,8 @@
 # wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
 
+## CSS Modules - Code Splitting
+- https://nextjs.org/blog/next-9-2
+
 ## Antd layout breakpoint width
 ```css
 .breakpointWidth{
