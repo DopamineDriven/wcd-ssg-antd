@@ -1,11 +1,15 @@
 import Link from 'next/link';
 import Button from 'antd/lib/button';
 
-const CardMetaDescription = () => {
+type Props = {
+	slug?: string;
+};
+
+const CardMetaDescription = ({ slug }: Props) => {
 	return (
 		<Button size='large' type='link' className='user-button'>
-			<Link href='/about'>
-				<a className="user-button-anchor">About</a>
+			<Link as={`/posts/${slug}`} href='/posts/[slug]'>
+				<a className='user-button-anchor'>About</a>
 			</Link>
 		</Button>
 	);
