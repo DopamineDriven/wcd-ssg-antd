@@ -1,5 +1,17 @@
 # wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
 
+## Antd layout breakpoint width
+```css
+.breakpointWidth{
+  xs: '480px';
+  sm: '576px';
+  md: '768px';
+  lg: '992px';
+  xl: '1200px';
+  xxl: '1600px';
+}
+```
+
 ## Next Steps
 - Build out the following in pages/index.tsx
 ```tsx

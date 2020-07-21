@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Great%20Vibes&display=swap);
 *,
 *:before,
 *:after {
@@ -107,8 +108,18 @@ body {
 	box-shadow: 0 8px 30px rgna(0, 0, 0, 0.12);
 }
 
+.hover\:text-success:hover {
+	--text-opacity: 1;
+	color: #0070f3;
+	color: rgba(0, 112, 243, var(--text-opacity));
+}
+
 .transition-shadow {
 	transition-property: box-shadow;
+}
+
+.transition-colors {
+	transition-property: background-color, border-color, color, fill, stroke;
 }
 
 .duration-200 {
@@ -120,6 +131,42 @@ body {
 		margin-left: 0;
 		margin-right: 0;
 	}
+}
+
+@media (min-width: 768px) {
+	.md\:flex-row {
+		flex-direction: row;
+	}
+	.md\:justify-between {
+		justify-content: space-between;
+	}
+	.md\:text-left {
+		text-align: left;
+	}
+	.md\:mb-5 {
+		margin-bottom: 3rem;
+	}
+	.md\:mt-4 {
+		margin-top: 1.5rem;
+	}
+	.md\:pr-4 {
+		padding-right: 1.5rem;
+	}
+	.md\:pl-4 {
+		padding-left: 1.5rem;
+	}
+	.md\:ft-h1 {
+		font-size: 5.25rem;
+	}
+}
+
+.intro-h1 {
+	font-family: 'Great Vibes', cursive;
+	color: var(--primaryColor);
+}
+
+.intro-h1:hover {
+	color: #eb57a3;
 }
 
 .user-button {
@@ -154,6 +201,10 @@ body {
 	font-weight: bold;
 }
 
+.leading-tight {
+	line-height: 1.2;
+}
+
 .md-line-height {
 	line-height: 1.625;
 }
@@ -166,12 +217,20 @@ body {
 	margin-top: 2em;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .text-left {
 	text-align: left !important;
 }
 
 .text-justify {
 	text-align: justify !important;
+}
+
+.align-text-center {
+	text-align: center !important;
 }
 
 .text-right {
@@ -218,20 +277,28 @@ body {
 	display: flex;
 }
 
+.flex-dir-col {
+	flex-direction: column;
+}
+
 .ft-3 {
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .ft-md {
 	font-size: 1.125rem;
 }
 
+.ft-h3 {
+	font-size: 1.5rem;
+}
+
 .ft-h2 {
 	font-size: 1.875rem;
 }
 
-.ft-h3 {
-	font-size: 1.5rem;
+.ft-h1 {
+	font-size: 4rem;
 }
 
 .ft-lgr {

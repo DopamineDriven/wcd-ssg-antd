@@ -8,7 +8,6 @@ import CardExcerpt from './card-excerpt';
 import CoverImage from './cover-image';
 import Avatar from './avatar';
 import Author from '../types/author';
-import Container from './container';
 import DateFormatter from './date-formatter';
 
 type Props = {
@@ -31,7 +30,7 @@ const IndexCard = ({
 	slug
 }: Props) => {
 	return (
-		<Container>
+		<section>
 			<Card
 				className='text-justify d-in m-3'
 				hoverable={true}
@@ -57,9 +56,8 @@ const IndexCard = ({
 					<DateFormatter dateString={date} />
 				</div>
 			</Card>
-		</Container>
+		</section>
 	);
 };
-
 
 export default IndexCard;
