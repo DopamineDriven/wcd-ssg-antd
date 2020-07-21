@@ -8,13 +8,13 @@ const { Footer } = Layout;
 const FixedFooter: FC = () => {
 	const currentYear = new Date().getFullYear();
 	return (
-		<Container>
-			<Footer className='align-center text-center fff ft-3'>
+
+			<Footer className='align-center text-center fff ft-3 bg-black px-0'>
 				<CopyrightCircleOutlined />
 				&nbsp;
 				{currentYear}
 			</Footer>
-		</Container>
+
 	);
 };
 

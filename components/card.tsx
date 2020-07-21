@@ -6,7 +6,8 @@ import CardMetaDescription from './card-meta-description';
 import CardDetails from './card-details';
 import CardExcerpt from './card-excerpt';
 import CoverImage from './cover-image';
-import Avatar from './avatar';
+import Avatar from 'antd/lib/avatar';
+import UserOutlined from '@ant-design/icons/UserOutlined';
 import Author from '../types/author';
 import DateFormatter from './date-formatter';
 
@@ -30,33 +31,38 @@ const IndexCard = ({
 	slug
 }: Props) => {
 	return (
-		<section>
-			<Card
-				className='text-justify d-in m-3'
-				hoverable={true}
-				cover={<CoverImage title={title} src={coverImage} slug={slug} />}
-				actions={[
-					<Github github={author.github} />,
-					<Linkedin linkedin={author.linkedin} />,
-					<Twitter twitter={author.twitter} />
-				]}
-			>
-				<CardDetails name={author.name} role={author.role} />
-				<Meta
-					description={<CardMetaDescription />}
-					avatar={
+		<Card
+			className='text-justify d-in m-3'
+			hoverable={true}
+			cover={<CoverImage title={title} src={coverImage} slug={slug} />}
+			actions={[
+				<Github github={author.github} />,
+				<Linkedin linkedin={author.linkedin} />,
+				<Twitter twitter={author.twitter} />
+			]}
+			style={{ backgroundColor: '#hhhhhh' }}
+		>
+			<CardDetails name={author.name} role={author.role} />
+			<Meta
+				description={<CardMetaDescription />}
+				avatar={
+					<div style={{ display: 'flex', alignItems: 'center' }}>
 						<Avatar
-							picture={author.picture}
-							name={`picture of ${author.name}`}
+							src={author.picture}
+							size={150}
+							icon={UserOutlined}
+							shape='circle'
+							alt={`picture of ${author.name}`}
+							className='vertical-center'
 						/>
-					}
-				/>
-				<CardExcerpt excerpt={excerpt} />
-				<div className='ft-md mb-3'>
-					<DateFormatter dateString={date} />
-				</div>
-			</Card>
-		</section>
+					</div>
+				}
+			/>
+			<CardExcerpt excerpt={excerpt} />
+			<div className='ft-md mb-3'>
+				<DateFormatter dateString={date} />
+			</div>
+		</Card>
 	);
 };
 

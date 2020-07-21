@@ -12,7 +12,7 @@ const CardExcerpt = ({ excerpt }: CProps) => {
 		<>
 			<Divider />
 			<Paragraph>
-				<Text className='ft-lgr fw-b _000'>
+				<Text className='ft-lgr _000'>
 					<em>{excerpt}</em>
 				</Text>
 			</Paragraph>

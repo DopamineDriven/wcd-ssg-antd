@@ -11,8 +11,8 @@ const { Header } = Layout;
 //Content destructured by Layout if needed
 const FixedHeader = ({ props }: Props) => {
 	return (
-		<Header>
-			<div className='d-in pl-2'>
+		<Header className='header-fixed'>
+			<div>
 				<NavLink href='/'>
 					<a className='ml-5'>{<SvgLogo props={props} />}</a>
 				</NavLink>
