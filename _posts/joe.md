@@ -6,7 +6,7 @@ date: "2020-07-18T09:08:07.322Z"
 author:
   name: Joe Shields
   role: 'CEO'
-  picture: '/assets/joe.jpg'
+  picture: 'https://res.cloudinary.com/asross311/image/upload/v1595372546/ASR_Assets/joe_hkm4dv.jpg'
   github: 'https://github.com/JShields30'
   twitter: 'https://twitter.com/JShields312'
   linkedin: 'https://www.linkedin.com/in/jshields90/'
