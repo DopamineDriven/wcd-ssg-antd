@@ -155,6 +155,9 @@ body {
 }
 
 @media (min-width: 768px) {
+	.md\:leading-none {
+		line-height: 1;
+	}
 	.md\:flex-row {
 		flex-direction: row;
 	}

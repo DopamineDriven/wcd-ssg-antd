@@ -1,11 +1,15 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 type Props = {
-    children?: ReactNode;
-}
+	children?: ReactNode;
+};
 
 const PostTitle = ({ children }: Props) => {
-    return (
-    <h1>{children}</h1>
-    )
-}
+	return (
+		<h1 className='fff ft-h1 fw-b leading-tight md:leading-none mb-5 text-center md:text-left'>
+			{children}
+		</h1>
+	);
+};
+
+export default PostTitle;
