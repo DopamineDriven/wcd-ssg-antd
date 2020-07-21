@@ -14,6 +14,7 @@ const AppLayout = ({ children }: Props) => {
 			<div className='app-layout'>
 				<main>{children}</main>
 			</div>
+			<Footer />
 		</>
 	);
 };
