@@ -74,6 +74,11 @@ body {
 	padding: 0 0 0 1em;
 }
 
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .container-div {
 	width: 100%;
 	margin: 0 auto 0 auto;
@@ -167,6 +172,9 @@ body {
 	.md\:text-left {
 		text-align: left;
 	}
+	.md\mb-6 {
+		margin-bottom: 4rem;
+	}
 	.md\:mb-5 {
 		margin-bottom: 3rem;
 	}
@@ -182,12 +190,30 @@ body {
 	.md\:ft-h1 {
 		font-size: 5.25rem;
 	}
+	.block {
+		display: block;
+	}
+	.hidden {
+		display: none;
+	}
+}
+
+.max-width-42 {
+	max-width: 42rem;
+}
+
+.block {
+	display: block;
 }
 
 .post-body {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 42rem;
+}
+
+.post-header-avatar {
+	display: none;
 }
 
 .intro-h1 {
@@ -231,14 +257,14 @@ body {
 
 .social-media-icon {
 	color: #ffffff;
-	font-size: 1.8em;
+	font-size: 1.8rem;
 	font-weight: bold;
 	margin: 1px 0 2px 0;
 }
 
 .social-media-icon:hover {
 	color: #000000;
-	font-size: 1.8em;
+	font-size: 1.8rem;
 	font-weight: bold;
 }
 
@@ -255,7 +281,7 @@ body {
 }
 
 .mt-h3 {
-	margin-top: 2em;
+	margin-top: 2rem;
 }
 
 .underline {
@@ -422,8 +448,8 @@ body {
 	margin-left: 3rem;
 }
 .-mx-125 {
-	margin-left: -1.25em;
-	margin-right: -1.25em;
+	margin-left: -1.25rem;
+	margin-right: -1.25rem;
 }
 
 .p-0 {

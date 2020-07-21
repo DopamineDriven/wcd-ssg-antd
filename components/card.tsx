@@ -32,6 +32,8 @@ const IndexCard = ({
 }: Props) => {
 	return (
 		<Card
+            title={`About ${author.name}`}
+            bordered={false}
 			className='text-justify d-in m-3'
 			hoverable={true}
 			cover={<CoverImage title={title} src={coverImage} slug={slug} />}

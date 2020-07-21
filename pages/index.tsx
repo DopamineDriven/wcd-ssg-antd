@@ -8,6 +8,8 @@ import AppLayout from '../components/layout';
 import IndexCard from '../components/card';
 import Affix from 'antd/lib/affix';
 import Divider from 'antd/lib/divider';
+import Row from 'antd/lib/row';
+import Col from 'antd/lib/col';
 
 type Props = {
 	props: string | number;
@@ -17,15 +19,17 @@ type Props = {
 const Index = ({ allPosts, props }: Props) => {
 	const posts = allPosts;
 	const indexCards = posts.map(post => (
-		<IndexCard
-			key={post.slug}
-			title={post.title}
-			coverImage={post.coverImage}
-			date={post.date}
-			author={post.author}
-			slug={post.slug}
-			excerpt={post.excerpt}
-		/>
+		<Col span={8}>
+			<IndexCard
+				key={post.slug}
+				title={post.title}
+				coverImage={post.coverImage}
+				date={post.date}
+				author={post.author}
+				slug={post.slug}
+				excerpt={post.excerpt}
+			/>
+		</Col>
 	));
 	return (
 		<>
@@ -38,7 +42,7 @@ const Index = ({ allPosts, props }: Props) => {
 				</Affix>
 				<div className='index-row-keeper'>
 					<Divider />
-					{indexCards}
+					<Row gutter={16}>{indexCards}</Row>
 				</div>
 			</AppLayout>
 		</>
