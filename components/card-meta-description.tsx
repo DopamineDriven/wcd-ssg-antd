@@ -5,7 +5,7 @@ const CardMetaDescription = () => {
 	return (
 		<Button size='large' type='link' className='user-button'>
 			<Link href='/about'>
-				<a>About</a>
+				<a className="user-button-anchor">About</a>
 			</Link>
 		</Button>
 	);
