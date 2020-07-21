@@ -1,12 +1,12 @@
-import { ReactNode, FC } from 'react';
-import componentStyles from 'components.module.css';
+import { ReactNode } from 'react';
+
 type Props = {
 	children?: ReactNode;
 };
 
-const Container: FC = ({ children }: Props) => {
+const Container = ({ children }: Props) => {
 	return (
-		<div className={componentStyles.container || 'container'}>{children}</div>
+		<div className='container'>{children}</div>
 	);
 };
 

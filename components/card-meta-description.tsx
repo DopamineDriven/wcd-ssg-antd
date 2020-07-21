@@ -1,17 +1,31 @@
 import Link from 'next/link';
 import Button from 'antd/lib/button';
-
+import cn from 'classnames';
 type Props = {
 	slug?: string;
+	title: string;
 };
 
-const CardMetaDescription = ({ slug }: Props) => {
+const CardMetaDescription = ({ slug, title }: Props) => {
+	const button = (
+		<Button
+			size='large'
+			type='link'
+			className={cn({'user-button': slug})}
+		>About</Button>
+	);
 	return (
-		<Button size='large' type='link' className='user-button'>
-			<Link as={`/posts/${slug}`} href='/posts/[slug]'>
-				<a className='user-button-anchor'>About</a>
-			</Link>
-		</Button>
+		<div>
+			{slug ? (
+		<Link as={`/posts/${slug}`} href='/posts/[slug]'>
+			<a aria-label={title} className='user-button-anchor'>
+				{button}
+			</a>
+		</Link>
+		) : (
+			button
+		)}
+		</div>
 	);
 };
 

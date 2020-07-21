@@ -9,7 +9,7 @@ const { Text } = Typography;
 
 const PostTitle = ({ children }: Props) => {
 	return (
-		<Text className='fff ft-h1 fw-b leading-tight md:leading-none mb-5 text-center md:text-left'>
+		<Text className='fff ft-h2 fw-b leading-tight md:leading-none mt-5 mb-5 text-center md:text-left'>
 			{children}
 		</Text>
 	);

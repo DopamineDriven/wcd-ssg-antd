@@ -6,7 +6,7 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
 	return (
-		<div className='post-body'>
+		<div className='post-body fff'>
 			<div
 				className={mdStyles['markdown']}
 				dangerouslySetInnerHTML={{ __html: content }}

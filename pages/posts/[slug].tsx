@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import ErrorPage from 'next/error';
 import Head from 'next/head';
-import Link from 'next/link';
 import { getPostBySlug, getAllPosts } from '../../lib/api';
 import markdownToHtml from '../../lib/markdownToHtml';
 import PostType from '../../types/post';
@@ -12,14 +11,14 @@ import PostTitle from '../../components/post-title';
 import PostHeader from '../../components/post-header';
 import PostBody from '../../components/post-body';
 import Affix from 'antd/lib/affix';
-import Typography from 'antd/lib/typography';
+import PostLink from '../../components/post-link';
 
 type Props = {
 	props: string | number;
 	post: PostType;
 };
 
-const { Text } = Typography;
+
 
 const Post = ({ post, props }: Props) => {
 	const router = useRouter();
@@ -32,11 +31,6 @@ const Post = ({ post, props }: Props) => {
 				<FixedHeader props={props} />
 			</Affix>
 			<Container>
-				<Link href='/'>
-					<Text strong className='mb-6 fff'>
-						&rarr;&nbsp;Home&nbsp;&larr;
-					</Text>
-				</Link>
 				{router.isFallback ? (
 					<PostTitle>Loading...</PostTitle>
 				) : (

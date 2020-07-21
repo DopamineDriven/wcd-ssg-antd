@@ -2,7 +2,7 @@ import Divider from 'antd/lib/divider';
 import Typography from 'antd/lib/typography';
 import MoreOutlined from '@ant-design/icons/MoreOutlined';
 
-const { Paragraph, Text } = Typography;
+const { Paragraph } = Typography;
 
 type CProps = {
 	excerpt: string;
@@ -14,10 +14,9 @@ const CardExcerpt = ({ excerpt }: CProps) => {
 			<Divider />
 			<Paragraph
 				ellipsis={{ expandable: true, rows: 1, symbol: <MoreOutlined /> }}
+				className='ft-lgr'
 			>
-				<Text className='ft-lgr _000'>
-					<em>{excerpt}</em>
-				</Text>
+				<em>{`${excerpt}`}</em>
 			</Paragraph>
 		</>
 	);

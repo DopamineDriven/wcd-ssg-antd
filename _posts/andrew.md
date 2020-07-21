@@ -1,5 +1,5 @@
 ---
-title: 'JAMstack enthusiast, lover of TypeScript, Driven to 🐜🐜🐜BUILD🐜🐜🐜'
+title: 'JAMstack enthusiast, TypeScript = 💙, Driven to 🐜BUILD🐜'
 excerpt: '"The mechanic that would perfect his work must first sharpen his tools." - Confucius'
 coverImage: '/assets/next-jamstack.jpg'
 date: "2020-07-19T08:35:07.322Z"
