@@ -212,7 +212,7 @@ body {
 	max-width: 42rem;
 }
 
-.post-header-avatar {
+.hidden {
 	display: none;
 }
 
@@ -245,6 +245,31 @@ body {
 	box-shadow: 0 2px 8px #f0f1f2;
 	vertical-align: center;
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto 0 auto;
+	padding: 0 1.25em 0 1.25em;
+}
+
+@media (min-width: 640px) {
+	.container {
+		max-width: 640px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		max-width: 1024px;
+	}
+}
+
 
 .social-media-btn {
 	background: #000000;
