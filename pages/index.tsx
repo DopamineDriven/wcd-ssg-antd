@@ -1,13 +1,14 @@
 import React from 'react';
-import Footer from '../components/footer';
 import Head from 'next/head';
-import Header from '../components/header';
-import Affix from 'antd/lib/affix';
-import AppLayout from '../components/layout';
+import FixedFooter from '../components/footer';
+import FixedHeader from '../components/header';
+import Intro from '../components/intro';
+import Layout from '../components/layout';
 import Container from '../components/container';
-import Layout from 'antd/lib/layout';
-
-const { Content } = Layout;
+import IndexCard from '../components/card';
+import Row from 'antd/lib/row';
+import Col from 'antd/lib/col';
+import List from 'antd/lib/list';
 
 interface Props {
 	props: string | number;
@@ -16,14 +17,19 @@ interface Props {
 const Index = ({ props }: Props) => {
 	return (
 		<>
-			<AppLayout>
+			<Layout>
 				<Head>
 					<title>Landing Page</title>
 				</Head>
-					<Header props={props} />
+				<FixedHeader props={props} />
+				<Container>
+					<Intro />
 
-				<Footer />
-			</AppLayout>
+
+				</Container>
+
+				<FixedFooter />
+			</Layout>
 		</>
 	);
 };
