@@ -1,6 +1,6 @@
 ---
 title: "Deviant Designer, Guitar Strummer, Technopreneur"
-excerpt: '"A leader gives articulation of the imagination of the population" - Jordan Peterson'
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 coverImage: '/assets/next-jamstack.jpg'
 articleImage: 'https://res.cloudinary.com/asross311/image/upload/v1594605276/ASR_Assets/Peter-Lik-Chicago_zamhq1.webp'
 date: "2020-07-18T09:08:07.322Z"

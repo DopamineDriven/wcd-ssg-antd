@@ -1,5 +1,8 @@
 # wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
 
+## Browserl.ist - target browsers 
+- https://browserl.ist/?q=%3E0.3%25%2C+not+ie+11%2C+not+dead%2C+not+op_mini+all
+
 ## CSS Modules - Code Splitting
 - https://nextjs.org/blog/next-9-2
 

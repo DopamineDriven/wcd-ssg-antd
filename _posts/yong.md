@@ -1,6 +1,6 @@
 ---
 title: "Discord Bots, Keeper of Waffle, Technophile"
-excerpt: 'Juggling all the stacks while Waffle attacks'
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 coverImage: '/assets/next-jamstack.jpg'
 articleImage: 'https://res.cloudinary.com/asross311/image/upload/v1594605138/ASR_Assets/Banner-GreatBarrierReef_i1d1zy.jpg'
 date: "2020-07-18T08:35:07.322Z"
@@ -16,7 +16,4 @@ ogImage:
 ---
 
 ## Overview
-Is that a dead pig?
-Yes. It's just like Errich. My corrupt uncle sent a death certificate from China but to send body is too expensive. So... I cremate a pig because a pig is most like a fat human.
-
-Erlich Bachman is a poor sad a man, and he's a very fat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget.
