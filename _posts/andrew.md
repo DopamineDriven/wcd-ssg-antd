@@ -1,7 +1,7 @@
 ---
 title: 'JAMstack enthusiast, TypeScript = 💙, Driven to 🐜BUILD🐜'
 excerpt: '"The mechanic that would perfect his work must first sharpen his tools." - Confucius'
-coverImage: 'https://res.cloudinary.com/asross311/image/upload/v1595372546/ASR_Assets/next-jamstack_kjqlzf.jpg'
+coverImage: '/assets/next-jamstack.jpg'
 articleImage: 'https://res.cloudinary.com/asross311/image/upload/v1594138140/ASR_Assets/typescript-in-react_vv81ae.png'
 date: "2020-07-19T08:35:07.322Z"
 author:
@@ -12,7 +12,7 @@ author:
   twitter: 'https://twitter.com/Dopamine_Driven'
   linkedin: 'https://www.linkedin.com/in/asross/'
 ogImage:
-  url: 'https://res.cloudinary.com/asross311/image/upload/v1595372546/ASR_Assets/next-jamstack_kjqlzf.jpg'
+  url: '/assets/next-jamstack.jpg'
 ---
 
 ## Overview
