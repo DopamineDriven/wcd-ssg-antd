@@ -11,20 +11,22 @@ const CardMetaDescription = ({ slug, title }: Props) => {
 		<Button
 			size='large'
 			type='link'
-			className={cn({'user-button': slug})}
-		>About</Button>
+			className={cn({
+				'user-button': slug
+			})}
+		>
+			About
+		</Button>
 	);
 	return (
 		<div>
 			{slug ? (
-		<Link as={`/posts/${slug}`} href='/posts/[slug]'>
-			<a aria-label={title} className='user-button-anchor'>
-				{button}
-			</a>
-		</Link>
-		) : (
-			button
-		)}
+				<Link as={`/posts/${slug}`} href='/posts/[slug]'>
+					<a aria-label={title}>{button}</a>
+				</Link>
+			) : (
+				button
+			)}
 		</div>
 	);
 };

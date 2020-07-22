@@ -1,11 +1,10 @@
-import React, { FC } from 'react';
+import React from 'react';
 import Layout from 'antd/lib/layout';
-import Container from './container';
 import CopyrightCircleOutlined from '@ant-design/icons/CopyrightCircleOutlined';
 
 const { Footer } = Layout;
 
-const FixedFooter: FC = () => {
+const FixedFooter = () => {
 	const currentYear = new Date().getFullYear();
 	return (
 

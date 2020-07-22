@@ -79,11 +79,6 @@ body {
 	margin-right: auto;
 }
 
-.container-posts {
-	margin: 0 auto 0 auto;
-	padding: 8em 1.25em 0 1.25em;
-}
-
 .index-row-keeper {
 	padding-top: 2em;
 	max-width: inherit;
@@ -101,6 +96,27 @@ body {
 
 .bg-black {
 	background-color: #000000;
+}
+
+.user-button {
+	color: #ffffff;
+	float: right;
+	background-color: #000000;
+	border: 1px #ffffff solid;
+	width: 100px;
+	font-size: large;
+	box-shadow: 0 2px 8px #f0f1f2;
+}
+
+.user-button:hover {
+	color: #000000;
+	float: right;
+	background-color: #ffffff;
+	border: 1px #000000 solid;
+	width: 100px;
+	font-size: large;
+	box-shadow: 0 2px 8px #f0f1f2;
+	vertical-align: center;
 }
 
 .ant-layout-content {
@@ -131,7 +147,7 @@ body {
 	padding: 2em 0 2em 0;
 }
 
-.shadow-sm {
+.box-shadow-sm {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 }
 
@@ -149,9 +165,6 @@ body {
 	transition-property: box-shadow;
 }
 
-.transition-colors {
-	transition-property: background-color, border-color, color, fill, stroke;
-}
 
 .duration-200 {
 	transition-duration: 200ms;
@@ -237,53 +250,8 @@ body {
 	color: #eb57a3;
 }
 
-.user-button {
-	color: #ffffff;
-	float: right;
-	background-color: #000000;
-	border: 1px #ffffff solid;
-	width: 100px;
-	font-size: large;
-	box-shadow: 0 2px 8px #f0f1f2;
-}
-
 .post-title {
 	padding-top: 8em;
-}
-
-.user-button:hover {
-	color: #000000;
-	float: right;
-	background-color: #ffffff;
-	border: 1px #000000 solid;
-	width: 100px;
-	font-size: large;
-	box-shadow: 0 2px 8px #f0f1f2;
-	vertical-align: center;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto 0 auto;
-	padding: 8em 1.25em 0 1.25em;
-}
-
-@media (min-width: 640px) {
-	.container {
-		max-width: 640px;
-	}
-}
-
-@media (min-width: 768px) {
-	.container {
-		max-width: 768px;
-	}
-}
-
-@media (min-width: 1024px) {
-	.container {
-		max-width: 1024px;
-	}
 }
 
 
