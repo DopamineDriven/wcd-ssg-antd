@@ -1,7 +1,8 @@
 ---
 title: "Discord Bots, Keeper of Waffle, Technophile"
 excerpt: 'Juggling all the stacks while Waffle attacks'
-coverImage: '/assets/next-jamstack.jpg'
+coverImage: 'https://res.cloudinary.com/asross311/image/upload/v1595372546/ASR_Assets/next-jamstack_kjqlzf.jpg'
+articleImage: 'https://res.cloudinary.com/asross311/image/upload/v1594605138/ASR_Assets/Banner-GreatBarrierReef_i1d1zy.jpg'
 date: "2020-07-18T08:35:07.322Z"
 author:
   name: Yong Lee
@@ -11,7 +12,7 @@ author:
   twitter: 'https://twitter.com/YongLee08380800'
   linkedin: 'https://www.linkedin.com/in/yong-lee-a16430193/'
 ogImage:
-  url: '/assets/next-jamstack.jpg'
+  url: 'https://res.cloudinary.com/asross311/image/upload/v1595372546/ASR_Assets/next-jamstack_kjqlzf.jpg'
 ---
 
 ## Overview

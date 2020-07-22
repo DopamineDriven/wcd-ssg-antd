@@ -9,3 +9,4 @@ yarn.lock
 build
 public
 _posts
+svg-logo.tsx

@@ -11,7 +11,7 @@ import PostTitle from '../../components/post-title';
 import PostHeader from '../../components/post-header';
 import PostBody from '../../components/post-body';
 import Affix from 'antd/lib/affix';
-import PostLink from '../../components/post-link';
+
 
 type Props = {
 	props: string | number;
