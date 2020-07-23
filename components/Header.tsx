@@ -2,9 +2,11 @@ import React from 'react';
 import Layout from 'antd/lib/layout';
 import NavLink from 'next/link';
 import SvgLogo from './svg-logo';
+import Alert from './alert'
 
 interface Props {
 	props: string | number;
+	preview?: boolean;
 }
 
 const { Header } = Layout;

@@ -12,6 +12,7 @@ import PostHeader from '../../components/post-header';
 import PostBody from '../../components/post-body';
 import Affix from 'antd/lib/affix';
 
+
 type Props = {
 	props: string | number;
 	post: PostType;
@@ -24,7 +25,7 @@ const Post = ({ post, preview, props }: Props) => {
 		return <ErrorPage statusCode={404} />;
 	}
 	return (
-		<AppLayout preview={preview}>
+		<AppLayout>
 			<Affix offsetTop={0} className='affix-header'>
 				<FixedHeader props={props} />
 			</Affix>

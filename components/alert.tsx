@@ -3,6 +3,8 @@ import cn from 'classnames';
 import { EXAMPLE_PATH } from '../lib/constants';
 import alertStyles from './alert-styles.module.css';
 import GithubOutlined from '@ant-design/icons/GithubOutlined';
+import ToolTip from 'antd/lib/tooltip';
+import Button from 'antd/lib/button';
 
 type Props = {
 	preview?: boolean;
@@ -28,12 +30,25 @@ const Alert = ({ preview }: Props) => {
 						</>
 					) : (
 						<>
-							The source code for this website is available &rarr;{' '}
 							<a
 								href={`https://github.com/DopamineDriven/${EXAMPLE_PATH}`}
+								target='__blank'
 								className={alertStyles.elseAnchor}
 							>
-								<GithubOutlined />
+								<ToolTip title='source code'>
+									<span>
+										<Button
+											className='social-media-btn'
+											shape='round'
+											icon={
+												<GithubOutlined
+													key='github'
+													className='social-media-icon'
+												/>
+											}
+										/>
+									</span>
+								</ToolTip>
 							</a>
 						</>
 					)}
