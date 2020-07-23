@@ -1,0 +1,37 @@
+.outter-div {
+	border-bottom-width: 1px;
+}
+
+.container-div {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+	font-size: 0.875rem;
+	color: #ffffff;
+}
+
+.if-anchor {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.if-anchor:hover {
+	--text-opacity: 1;
+	color: #79ffe1;
+	color: rgba(121, 255, 225, var(--text-opacity));
+	transition-duration: 200ms;
+	transition-property: background-color, border-color, color, fill, stroke;
+}
+
+.else-anchor {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.else-anchor:hover {
+	--text-opacity: 1;
+	color: #0070f3;
+	color: rgba(0, 112, 243, var(--text-opacity));
+	transition-duration: 200ms;
+	transition-property: background-color, border-color, color, fill, stroke;
+}

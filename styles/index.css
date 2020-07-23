@@ -56,6 +56,19 @@ body {
 	background-color: #000000;
 }
 
+.alert-accent-seven {
+	--bg-opacity: 1;
+	background-color: #333;
+	background-color: rgba(51, 51, 51, var(--bg-opacity));
+}
+
+.alert-accent-one {
+	--bg-opacity: 1;
+	background-color: #fafafa;
+	background-color: rgba(250, 250, 250, var(--bg-opacity));
+}
+
+
 .rounded-full {
 	border-radius: 9999px;
 }
