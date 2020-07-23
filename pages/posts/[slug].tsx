@@ -12,21 +12,19 @@ import PostHeader from '../../components/post-header';
 import PostBody from '../../components/post-body';
 import Affix from 'antd/lib/affix';
 
-
 type Props = {
 	props: string | number;
 	post: PostType;
+	preview?: boolean;
 };
 
-
-
-const Post = ({ post, props }: Props) => {
+const Post = ({ post, preview, props }: Props) => {
 	const router = useRouter();
 	if (!router.isFallback && !post?.slug) {
 		return <ErrorPage statusCode={404} />;
 	}
 	return (
-		<AppLayout>
+		<AppLayout preview={preview}>
 			<Affix offsetTop={0} className='affix-header'>
 				<FixedHeader props={props} />
 			</Affix>
