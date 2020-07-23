@@ -13,8 +13,8 @@ const CardDetails = ({ name, role }: UProps) => {
 		<>
 			<Title level={4} className='mb-3'>
 				<Text className='ft-h2 fw-b _000'>
-					<Paragraph>{name}</Paragraph>
-					<Paragraph>{role}</Paragraph>
+					<Paragraph className='_000'>{name}</Paragraph>
+					<Paragraph className='_000'>{role}</Paragraph>
 				</Text>
 			</Title>
 			<Divider />
