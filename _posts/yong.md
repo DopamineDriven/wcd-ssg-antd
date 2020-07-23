@@ -1,6 +1,6 @@
 ---
 title: "Discord Bots, Keeper of Waffle, Technophile"
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+excerpt: 'Juggling all the stacks while Waffle attacks'
 coverImage: '/assets/next-jamstack.jpg'
 articleImage: 'https://res.cloudinary.com/asross311/image/upload/v1594605138/ASR_Assets/Banner-GreatBarrierReef_i1d1zy.jpg'
 date: "2020-07-18T08:35:07.322Z"
