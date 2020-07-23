@@ -14,9 +14,10 @@ import Divider from 'antd/lib/divider';
 type Props = {
 	props: string | number;
 	allPosts: Post[];
+	preview?: boolean;
 };
 
-const Index = ({ allPosts, props }: Props) => {
+const Index = ({ allPosts, preview, props }: Props) => {
 	const posts = allPosts;
 	const indexCards = posts.map(post => (
 		<IndexCard
@@ -31,7 +32,7 @@ const Index = ({ allPosts, props }: Props) => {
 	));
 	return (
 		<>
-			<AppLayout>
+			<AppLayout preview={preview}>
 				<Head>
 					<title>Windy City Devs</title>
 				</Head>

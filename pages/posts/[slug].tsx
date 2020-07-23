@@ -25,7 +25,7 @@ const Post = ({ post, preview, props }: Props) => {
 		return <ErrorPage statusCode={404} />;
 	}
 	return (
-		<AppLayout>
+		<AppLayout preview={preview}>
 			<Affix offsetTop={0} className='affix-header'>
 				<FixedHeader props={props} />
 			</Affix>
