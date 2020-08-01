@@ -1,4 +1,4 @@
-# wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜
+# wcd-ssg-antd 🐜🐜SSG🐜🐜BUILD🐜🐜🐜🐜
 
 ## Browserl.ist - target browsers 
 - https://browserl.ist/?q=%3E0.3%25%2C+not+ie+11%2C+not+dead%2C+not+op_mini+all
